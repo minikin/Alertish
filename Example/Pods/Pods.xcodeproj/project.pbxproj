@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06265B90AACEEDED864E40861544CC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1983C2410BB2F9A2ABC3A91B9434B888 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A27EA8020668C5D388AD0B4E88373B /* Colors.swift */; };
+		76E826F8554682645BCADBBA3C4A1671 /* Pods-Alertish_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6648800A1B76FD90D0193E269156768 /* Pods-Alertish_Example-dummy.m */; };
+		7B4B799F0A4F5A037337514BC3492513 /* Alertish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 804C3258B6A0EC42B271954A095421B5 /* Alertish-dummy.m */; };
+		7C929532B9B878C3C3771E10F8475D9B /* Pods-Alertish_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEF557717107C485A184C7FABB3D92B /* Pods-Alertish_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845EDA6083F3D117896D28F385CCC720 /* Pods-Alertish_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 267CB6F9EBA7DE7E29C776EDC483D28D /* Pods-Alertish_Tests-dummy.m */; };
+		90AD19D354E754525FDFA028D553604C /* AlertishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FBE59704FA65BE73C3D9C5D7E5D30 /* AlertishView.swift */; };
+		9288A7E1B3ADF841F31579568F5124AC /* Pods-Alertish_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33975A186F5DC3AFADBBDA0D57638649 /* Pods-Alertish_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94BED1C106CB3BB2BE5F48E24F249DEB /* AlertishViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15261D56E22EFF2139A636522AB830C /* AlertishViewDelegate.swift */; };
+		A1A7DB7CA3013BBC7C422FEC478FADE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B972DCBEE709BB7015646D7D8EEFD134 /* Alertish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD774B59F83CECD07473C3F3D1E0B4EC /* Alertish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E990FEED2F28BA7C9F32D90D3C63B17C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD53ABC0B1B462716D4FF99EADE4D08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D63075458AC12E30658D6717B5BFD73;
+			remoteInfo = Alertish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002A1E0EA2CD690944D370299A8A5522 /* Pods-Alertish_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertish_Example-resources.sh"; sourceTree = "<group>"; };
+		1199F78D4F67AFC9FCE0CD585D0EEB9E /* Pods-Alertish_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alertish_Example.modulemap"; sourceTree = "<group>"; };
+		13698AC18FB76E1DAAA24C80A4AD3489 /* Pods-Alertish_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertish_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		267CB6F9EBA7DE7E29C776EDC483D28D /* Pods-Alertish_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alertish_Tests-dummy.m"; sourceTree = "<group>"; };
+		33975A186F5DC3AFADBBDA0D57638649 /* Pods-Alertish_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alertish_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3CE9CCE4C3B38521E8155E760D7CF285 /* Pods-Alertish_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertish_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56EB189A78E5E1F4E9A82BD4529B193F /* Pods-Alertish_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alertish_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FD1498CB79BD2D92F99A9803B6F9D5F /* Alertish.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alertish.xcconfig; sourceTree = "<group>"; };
+		63A996596B79C452CBD9718940C7863B /* Pods_Alertish_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alertish_Tests.framework; path = "Pods-Alertish_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		694C92054F665241C2E3246096D21096 /* Pods-Alertish_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertish_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		77384F1C4C7FCBB16BB158B62770F235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7C0A8D4D7BBC99D6B7D16E8B1E91A5 /* Alertish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alertish.modulemap; sourceTree = "<group>"; };
+		804C3258B6A0EC42B271954A095421B5 /* Alertish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alertish-dummy.m"; sourceTree = "<group>"; };
+		8E08AB36C18FC2005F12CF05FF431412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15261D56E22EFF2139A636522AB830C /* AlertishViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertishViewDelegate.swift; sourceTree = "<group>"; };
+		A82FBE59704FA65BE73C3D9C5D7E5D30 /* AlertishView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertishView.swift; sourceTree = "<group>"; };
+		AA3AEA7F2ADFCFC8143026CD9A138BF6 /* Pods-Alertish_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alertish_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE0F75312FFA66D66210EE2C51A8903E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFB78FEAB11A7EBD7070EBA3018CAF4 /* Pods-Alertish_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alertish_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B05BAD3710F96D7A82DB0DE3EDD28E3F /* Pods-Alertish_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertish_Tests-resources.sh"; sourceTree = "<group>"; };
+		BD2DEA9DE5D1235D5C5A665D0D258201 /* Pods-Alertish_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertish_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C7A27EA8020668C5D388AD0B4E88373B /* Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CD774B59F83CECD07473C3F3D1E0B4EC /* Alertish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertish-umbrella.h"; sourceTree = "<group>"; };
+		CF825CFD124117CEFA1C457ECD659B79 /* Pods-Alertish_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alertish_Tests.modulemap"; sourceTree = "<group>"; };
+		D071F855C7BB320E72BC87AFB0E93615 /* Pods-Alertish_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alertish_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6648800A1B76FD90D0193E269156768 /* Pods-Alertish_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alertish_Example-dummy.m"; sourceTree = "<group>"; };
+		DEE35554692D7E957C3768B1BB3D5BEC /* Alertish-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertish-prefix.pch"; sourceTree = "<group>"; };
+		E13A9E23FF66F160EBCEFC84D2B41283 /* Pods-Alertish_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertish_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E1682ED3A3CFDCAE22A76864F64B8FAB /* Pods-Alertish_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertish_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E4FDA549D152F794BFB8B517765E6BE2 /* Alertish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alertish.framework; path = Alertish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F845F4F62CA3D0BE46C3BB35FF7937D0 /* Pods_Alertish_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alertish_Example.framework; path = "Pods-Alertish_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEF557717107C485A184C7FABB3D92B /* Pods-Alertish_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alertish_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B6BA669AFCDB469FDA0A18A39C80AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E990FEED2F28BA7C9F32D90D3C63B17C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E46BBF2B62166515F1C28B33E14965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A7DB7CA3013BBC7C422FEC478FADE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2154D75BB3B131D8A338AD446110533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06265B90AACEEDED864E40861544CC06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2197AD71D2EFE591D70F34AA0C8FB642 /* Alertish */ = {
+			isa = PBXGroup;
+			children = (
+				FC4AC0DB8A3EB60FA7FE90EE355361E8 /* Classes */,
+			);
+			name = Alertish;
+			path = Alertish;
+			sourceTree = "<group>";
+		};
+		53BFB477E82611A3730301909896351A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92A0D1206680C71EAFDBA45621412B7A /* Alertish */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		61B69F3381BC13A5160DE00AC2E47967 /* Pods-Alertish_Example */ = {
+			isa = PBXGroup;
+			children = (
+				77384F1C4C7FCBB16BB158B62770F235 /* Info.plist */,
+				1199F78D4F67AFC9FCE0CD585D0EEB9E /* Pods-Alertish_Example.modulemap */,
+				AA3AEA7F2ADFCFC8143026CD9A138BF6 /* Pods-Alertish_Example-acknowledgements.markdown */,
+				AEFB78FEAB11A7EBD7070EBA3018CAF4 /* Pods-Alertish_Example-acknowledgements.plist */,
+				D6648800A1B76FD90D0193E269156768 /* Pods-Alertish_Example-dummy.m */,
+				E1682ED3A3CFDCAE22A76864F64B8FAB /* Pods-Alertish_Example-frameworks.sh */,
+				002A1E0EA2CD690944D370299A8A5522 /* Pods-Alertish_Example-resources.sh */,
+				FEEF557717107C485A184C7FABB3D92B /* Pods-Alertish_Example-umbrella.h */,
+				694C92054F665241C2E3246096D21096 /* Pods-Alertish_Example.debug.xcconfig */,
+				3CE9CCE4C3B38521E8155E760D7CF285 /* Pods-Alertish_Example.release.xcconfig */,
+			);
+			name = "Pods-Alertish_Example";
+			path = "Target Support Files/Pods-Alertish_Example";
+			sourceTree = "<group>";
+		};
+		71428FABAE25AC4722D37F2D91618077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4FDA549D152F794BFB8B517765E6BE2 /* Alertish.framework */,
+				F845F4F62CA3D0BE46C3BB35FF7937D0 /* Pods_Alertish_Example.framework */,
+				63A996596B79C452CBD9718940C7863B /* Pods_Alertish_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				53BFB477E82611A3730301909896351A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				71428FABAE25AC4722D37F2D91618077 /* Products */,
+				C7F759C6E4F4A9C45F26BD14192E3FD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		918457128D4E0CCBF358EFB92320DCB2 /* Pods-Alertish_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E08AB36C18FC2005F12CF05FF431412 /* Info.plist */,
+				CF825CFD124117CEFA1C457ECD659B79 /* Pods-Alertish_Tests.modulemap */,
+				D071F855C7BB320E72BC87AFB0E93615 /* Pods-Alertish_Tests-acknowledgements.markdown */,
+				56EB189A78E5E1F4E9A82BD4529B193F /* Pods-Alertish_Tests-acknowledgements.plist */,
+				267CB6F9EBA7DE7E29C776EDC483D28D /* Pods-Alertish_Tests-dummy.m */,
+				BD2DEA9DE5D1235D5C5A665D0D258201 /* Pods-Alertish_Tests-frameworks.sh */,
+				B05BAD3710F96D7A82DB0DE3EDD28E3F /* Pods-Alertish_Tests-resources.sh */,
+				33975A186F5DC3AFADBBDA0D57638649 /* Pods-Alertish_Tests-umbrella.h */,
+				13698AC18FB76E1DAAA24C80A4AD3489 /* Pods-Alertish_Tests.debug.xcconfig */,
+				E13A9E23FF66F160EBCEFC84D2B41283 /* Pods-Alertish_Tests.release.xcconfig */,
+			);
+			name = "Pods-Alertish_Tests";
+			path = "Target Support Files/Pods-Alertish_Tests";
+			sourceTree = "<group>";
+		};
+		92A0D1206680C71EAFDBA45621412B7A /* Alertish */ = {
+			isa = PBXGroup;
+			children = (
+				2197AD71D2EFE591D70F34AA0C8FB642 /* Alertish */,
+				C8D564D7B92CAD36F71976460A5CE8F6 /* Support Files */,
+			);
+			name = Alertish;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F759C6E4F4A9C45F26BD14192E3FD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B69F3381BC13A5160DE00AC2E47967 /* Pods-Alertish_Example */,
+				918457128D4E0CCBF358EFB92320DCB2 /* Pods-Alertish_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8D564D7B92CAD36F71976460A5CE8F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7C0A8D4D7BBC99D6B7D16E8B1E91A5 /* Alertish.modulemap */,
+				5FD1498CB79BD2D92F99A9803B6F9D5F /* Alertish.xcconfig */,
+				804C3258B6A0EC42B271954A095421B5 /* Alertish-dummy.m */,
+				DEE35554692D7E957C3768B1BB3D5BEC /* Alertish-prefix.pch */,
+				CD774B59F83CECD07473C3F3D1E0B4EC /* Alertish-umbrella.h */,
+				AE0F75312FFA66D66210EE2C51A8903E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Alertish";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC4AC0DB8A3EB60FA7FE90EE355361E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A82FBE59704FA65BE73C3D9C5D7E5D30 /* AlertishView.swift */,
+				A15261D56E22EFF2139A636522AB830C /* AlertishViewDelegate.swift */,
+				C7A27EA8020668C5D388AD0B4E88373B /* Colors.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E368566072B0951833A38F0AB617BD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288A7E1B3ADF841F31579568F5124AC /* Pods-Alertish_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C434B64AA5AA21A42D9EC81C337C9150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C929532B9B878C3C3771E10F8475D9B /* Pods-Alertish_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55113F804CAAAA6F0DF96F94269B14D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B972DCBEE709BB7015646D7D8EEFD134 /* Alertish-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D63075458AC12E30658D6717B5BFD73 /* Alertish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0E6DDC0EF1FCFD355D934EC31F6BF9 /* Build configuration list for PBXNativeTarget "Alertish" */;
+			buildPhases = (
+				488A208C9B5C752319486AF691DCF171 /* Sources */,
+				87E46BBF2B62166515F1C28B33E14965 /* Frameworks */,
+				C55113F804CAAAA6F0DF96F94269B14D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alertish;
+			productName = Alertish;
+			productReference = E4FDA549D152F794BFB8B517765E6BE2 /* Alertish.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DF5E628B136CA73C16934ADC65A8CAC /* Pods-Alertish_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510BDB09699E21C90B3661BF994A860B /* Build configuration list for PBXNativeTarget "Pods-Alertish_Tests" */;
+			buildPhases = (
+				9368F6050AA05FF9CE416A60AC060F97 /* Sources */,
+				43B6BA669AFCDB469FDA0A18A39C80AA /* Frameworks */,
+				0E368566072B0951833A38F0AB617BD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Alertish_Tests";
+			productName = "Pods-Alertish_Tests";
+			productReference = 63A996596B79C452CBD9718940C7863B /* Pods_Alertish_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF46B612D29859C8DEF5BD07ED2B6B67 /* Pods-Alertish_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBC168D230B7FFC7C40E73321477CDE /* Build configuration list for PBXNativeTarget "Pods-Alertish_Example" */;
+			buildPhases = (
+				C04268B4A243EED38D4AD9D4064B7B98 /* Sources */,
+				D2154D75BB3B131D8A338AD446110533 /* Frameworks */,
+				C434B64AA5AA21A42D9EC81C337C9150 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DDA43960214FE368402B97F868DC7D /* PBXTargetDependency */,
+			);
+			name = "Pods-Alertish_Example";
+			productName = "Pods-Alertish_Example";
+			productReference = F845F4F62CA3D0BE46C3BB35FF7937D0 /* Pods_Alertish_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 71428FABAE25AC4722D37F2D91618077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D63075458AC12E30658D6717B5BFD73 /* Alertish */,
+				AF46B612D29859C8DEF5BD07ED2B6B67 /* Pods-Alertish_Example */,
+				9DF5E628B136CA73C16934ADC65A8CAC /* Pods-Alertish_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488A208C9B5C752319486AF691DCF171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4B799F0A4F5A037337514BC3492513 /* Alertish-dummy.m in Sources */,
+				90AD19D354E754525FDFA028D553604C /* AlertishView.swift in Sources */,
+				94BED1C106CB3BB2BE5F48E24F249DEB /* AlertishViewDelegate.swift in Sources */,
+				1983C2410BB2F9A2ABC3A91B9434B888 /* Colors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9368F6050AA05FF9CE416A60AC060F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845EDA6083F3D117896D28F385CCC720 /* Pods-Alertish_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04268B4A243EED38D4AD9D4064B7B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E826F8554682645BCADBBA3C4A1671 /* Pods-Alertish_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9DDA43960214FE368402B97F868DC7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alertish;
+			target = 2D63075458AC12E30658D6717B5BFD73 /* Alertish */;
+			targetProxy = BD53ABC0B1B462716D4FF99EADE4D08A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FCE72FA20BD5BECC94B32376F7D299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD1498CB79BD2D92F99A9803B6F9D5F /* Alertish.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alertish/Alertish-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alertish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alertish/Alertish.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alertish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FBC36CA859697CE7F05641EF991F987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694C92054F665241C2E3246096D21096 /* Pods-Alertish_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertish_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alertish_Example/Pods-Alertish_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alertish_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D001447FC23E42B912D335B6A248762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD1498CB79BD2D92F99A9803B6F9D5F /* Alertish.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alertish/Alertish-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alertish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alertish/Alertish.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alertish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB89C84122191C514DCAA48CBCA17B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13698AC18FB76E1DAAA24C80A4AD3489 /* Pods-Alertish_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertish_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alertish_Tests/Pods-Alertish_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alertish_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09D0428534D07393776F9E8980C3058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13A9E23FF66F160EBCEFC84D2B41283 /* Pods-Alertish_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertish_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alertish_Tests/Pods-Alertish_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alertish_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C692D9036BA75CEDF5018390485C2A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE9CCE4C3B38521E8155E760D7CF285 /* Pods-Alertish_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertish_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alertish_Example/Pods-Alertish_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alertish_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DBC168D230B7FFC7C40E73321477CDE /* Build configuration list for PBXNativeTarget "Pods-Alertish_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FBC36CA859697CE7F05641EF991F987 /* Debug */,
+				C692D9036BA75CEDF5018390485C2A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510BDB09699E21C90B3661BF994A860B /* Build configuration list for PBXNativeTarget "Pods-Alertish_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB89C84122191C514DCAA48CBCA17B35 /* Debug */,
+				C09D0428534D07393776F9E8980C3058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E0E6DDC0EF1FCFD355D934EC31F6BF9 /* Build configuration list for PBXNativeTarget "Alertish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D001447FC23E42B912D335B6A248762 /* Debug */,
+				4FCE72FA20BD5BECC94B32376F7D299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

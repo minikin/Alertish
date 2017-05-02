@@ -1,0 +1,6 @@
+framework module Alertish {
+  umbrella header "Alertish-umbrella.h"
+
+  export *
+  module * { export * }
+}

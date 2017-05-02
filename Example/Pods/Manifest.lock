@@ -1,0 +1,16 @@
+PODS:
+  - Alertish (0.1.0)
+
+DEPENDENCIES:
+  - Alertish (from `../`)
+
+EXTERNAL SOURCES:
+  Alertish:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alertish: 3e2d8ef73513b0ffecc94576ec630dcd24b5049a
+
+PODFILE CHECKSUM: a79847cd6ed125ace150771fb59ff9b1ddfa9601
+
+COCOAPODS: 1.2.1

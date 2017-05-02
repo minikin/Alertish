@@ -22,7 +22,7 @@ pod "Alertish"
 
 ## Author
 
-minikin, sasha.prokhorenko@meetnow.eu
+Sasha Prokhorenko, djminikin@gmail.com
 
 ## License
 

@@ -1,0 +1,23 @@
+{
+  "name": "Alertish",
+  "version": "0.1.0",
+  "summary": "Alertish is a customizable alertView.",
+  "description": "Alertish is a customizable alertView, written in Swift 3.1",
+  "homepage": "https://github.com/minikin/Alertish",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "minikin": "djminikin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/minikin/Alertish.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/minikin",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Alertish/Classes/**/*"
+}
